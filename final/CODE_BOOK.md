@@ -7,11 +7,11 @@ output: html_document
 
 # **Mission Statement**.
 
-To describe the raw data, the variables of the raw data, transformations that were performed by my script **run_analysis.R** to clean up and summarize the raw data,  tidy data and variables of the tidy data
+This code book describes the raw data, the variables of the raw data, transformations that were performed by my script **run_analysis.R** to clean up and summarize the raw data, tidy data produced and variables of the tidy data
 
 # **The Raw Data**.
 
-The raw data analyzed by this program was collected from the accelerometers from the Samsung Galaxy S smartphone. The raw data was partioned to training and test data sets with 2967and 7392 observations respectively. The original data sets consisted 561 variables that include direct measurements and variables computed from the measurements. The tidy data produced consists of means of 66 selected variables from the 561 variables in the original raw data. The selected variables were the means and standard deviation of each measurement. 
+The raw data analyzed by **run_analysis.R** was collected from the accelerometers from the Samsung Galaxy S smartphone. The raw data was partioned to training and test data sets with 2967and 7392 observations respectively. The original data sets consisted 561 variables that include direct measurements and variables computed from the measurements. The tidy data produced consists of means of 66 selected variables from the 561 variables in the original raw data. The selected variables were the means and standard deviation of each measurement. 
 
 # **The Variables**.
 ## Tidy Data Variables and Observations.

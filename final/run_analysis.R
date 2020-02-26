@@ -48,7 +48,7 @@ indices<- grep(c("mean[()]|std[()]"),variables$V2)
 data_set<-data_set[,indices]
 
 #Use descriptive activity names to name the activities in the merged data label
-#Catagorize the activity in formation using the 6 activity names as labels for the factor levels
+#Catagorize the activity using the 6 activity names as labels for the factor levels
 colnames(activity)= c("Class Label","Activity")
 colnames(data_label) = c("Activity")
 data_label$Activity<-factor(data_label$Activity,labels = activity$Activity)
