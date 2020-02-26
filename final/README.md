@@ -5,8 +5,14 @@ date: "2/25/2020"
 output: html_document
 ---
 
-# **Mission Statement of Project**. 
-The R script submitted, run_analysis.R downloads, unzips, reads a raw data and creates a tidy data set with the average of  observations (each activity performed by each subject) for each variable in the raw data. To produce a tidy data, the R script first merges training and test sets to create one data set. The script then extracts only the measurements on the mean and standard deviation for each measurement. The script assigns descriptive activity names to name the activities in the data set. The script also labels the data set with descriptive variable names.
+# **This repository consists the following files:**. 
+ 
+- run_analysis.R  
+- CODE_BOOK.md  
+- README.md    
+- tidy_data.txt  
+
+The R script submitted, run_analysis.R downloads, unzips, reads a raw data and creates a tidy data set with the average of  observations (each activity performed by each subject) for each variable in the raw data. To produce a tidy data, the R script first merges training and test sets to create one data set. The script then extracts only the measurements on the mean and standard deviation for each measurement. The script assigns descriptive activity names to name the activities in the data set. The script also labels the data set with descriptive variable names.The variables and observations of the data are described in CODEBOOK.md. The script writes the tidy data in to a text file called tudy_data.txt.
 
 ## Getting Raw and Associated Data Files, Production of Tidy Data and Writing Transformed Tidy Data
 
